@@ -15,6 +15,9 @@
 		1AEB1A3915AD7FAB00A186B8 /* PaintAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB1A3815AD7FAB00A186B8 /* PaintAppDelegate.m */; };
 		1AEB1A3C15AD7FAB00A186B8 /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB1A3B15AD7FAB00A186B8 /* PaintViewController.m */; };
 		1AEB1A3F15AD7FAB00A186B8 /* PaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEB1A3D15AD7FAB00A186B8 /* PaintViewController.xib */; };
+		1AEB1A4B15AD838400A186B8 /* UIColor-Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB1A4A15AD838400A186B8 /* UIColor-Extended.m */; };
+		1AEB1A4C15AD84F600A186B8 /* TouchPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB1A4615AD835F00A186B8 /* TouchPoint.m */; };
+		1AEB1A4D15AD84FA00A186B8 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEB1A4815AD835F00A186B8 /* TouchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		1AEB1A2815AD7FAB00A186B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AEB1A2A15AD7FAB00A186B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AEB1A2C15AD7FAB00A186B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1AEB1A3015AD7FAB00A186B8 /* PaintApp-Info.plist */ = {isa = PBXFileReference; path = "PaintApp-Info.plist"; sourceTree = "<group>"; };
+		1AEB1A3015AD7FAB00A186B8 /* PaintApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintApp-Info.plist"; sourceTree = "<group>"; };
 		1AEB1A3215AD7FAB00A186B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AEB1A3415AD7FAB00A186B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1AEB1A3615AD7FAB00A186B8 /* PaintApp-Prefix.pch */ = {isa = PBXFileReference; path = "PaintApp-Prefix.pch"; sourceTree = "<group>"; };
-		1AEB1A3715AD7FAB00A186B8 /* PaintAppDelegate.h */ = {isa = PBXFileReference; path = PaintAppDelegate.h; sourceTree = "<group>"; };
+		1AEB1A3615AD7FAB00A186B8 /* PaintApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaintApp-Prefix.pch"; sourceTree = "<group>"; };
+		1AEB1A3715AD7FAB00A186B8 /* PaintAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintAppDelegate.h; sourceTree = "<group>"; };
 		1AEB1A3815AD7FAB00A186B8 /* PaintAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintAppDelegate.m; sourceTree = "<group>"; };
-		1AEB1A3A15AD7FAB00A186B8 /* PaintViewController.h */ = {isa = PBXFileReference; path = PaintViewController.h; sourceTree = "<group>"; };
+		1AEB1A3A15AD7FAB00A186B8 /* PaintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
 		1AEB1A3B15AD7FAB00A186B8 /* PaintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
 		1AEB1A3E15AD7FAB00A186B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PaintViewController.xib; sourceTree = "<group>"; };
+		1AEB1A4515AD835F00A186B8 /* TouchPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchPoint.h; sourceTree = "<group>"; };
+		1AEB1A4615AD835F00A186B8 /* TouchPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPoint.m; sourceTree = "<group>"; };
+		1AEB1A4715AD835F00A186B8 /* TouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		1AEB1A4815AD835F00A186B8 /* TouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		1AEB1A4915AD838400A186B8 /* UIColor-Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Extended.h"; sourceTree = "<group>"; };
+		1AEB1A4A15AD838400A186B8 /* UIColor-Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Extended.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,12 @@
 		1AEB1A2E15AD7FAB00A186B8 /* PaintApp */ = {
 			isa = PBXGroup;
 			children = (
+				1AEB1A4915AD838400A186B8 /* UIColor-Extended.h */,
+				1AEB1A4A15AD838400A186B8 /* UIColor-Extended.m */,
+				1AEB1A4515AD835F00A186B8 /* TouchPoint.h */,
+				1AEB1A4615AD835F00A186B8 /* TouchPoint.m */,
+				1AEB1A4715AD835F00A186B8 /* TouchView.h */,
+				1AEB1A4815AD835F00A186B8 /* TouchView.m */,
 				1AEB1A3715AD7FAB00A186B8 /* PaintAppDelegate.h */,
 				1AEB1A3815AD7FAB00A186B8 /* PaintAppDelegate.m */,
 				1AEB1A3A15AD7FAB00A186B8 /* PaintViewController.h */,
@@ -161,9 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AEB1A4D15AD84FA00A186B8 /* TouchView.m in Sources */,
+				1AEB1A4C15AD84F600A186B8 /* TouchPoint.m in Sources */,
 				1AEB1A3515AD7FAB00A186B8 /* main.m in Sources */,
 				1AEB1A3915AD7FAB00A186B8 /* PaintAppDelegate.m in Sources */,
 				1AEB1A3C15AD7FAB00A186B8 /* PaintViewController.m in Sources */,
+				1AEB1A4B15AD838400A186B8 /* UIColor-Extended.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

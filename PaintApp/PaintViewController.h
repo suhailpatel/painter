@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TouchView.h"
 
-@interface PaintViewController : UIViewController
+@interface PaintViewController : UIViewController {
+    IBOutlet TouchView *drawingView;
+}
+
+- (IBAction)pressedRed:(id)sender;
+- (IBAction)pressedGreen:(id)sender;
+- (IBAction)pressedBlue:(id)sender;
+- (IBAction)pressedClear:(id)sender;
 
 @end
